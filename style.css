@@ -1,0 +1,33 @@
+body{
+background-color: darkgrey;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+}
+#table{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    gap: 0px;
+    border-radius: 35px;
+}
+#line{
+    margin: 0px;
+    height: 45px;
+}
+#line:hover{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 35px;
+    padding: 5px;
+    box-shadow: 2px 2px 20px rgb(104, 188, 252);
+}
